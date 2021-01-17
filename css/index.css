@@ -22,3 +22,9 @@ body{
     background-color: transparent;
     border: none;
 }
+@media(max-width: 576px){
+    .intro{
+        font-size: 40px!important;
+    }
+
+}
