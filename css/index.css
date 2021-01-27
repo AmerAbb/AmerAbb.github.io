@@ -22,6 +22,9 @@ body{
     background-color: transparent;
     border: none;
 }
+.vh{
+    height: 100vh;
+}
 @media(max-width: 576px){
     .intro{
         font-size: 40px!important;
@@ -31,9 +34,17 @@ body{
 @media(max-width: 575px){
     .pics{
         width: 100%;
-  text-align: center;
+        text-align: center;
     }
     .ok{
         display: inline-block;
+    }
+}
+@media(max-width: 767px){
+    .vh{
+        height: 100%;
+    }
+    .proj{
+        margin-top: 60px;
     }
 }
